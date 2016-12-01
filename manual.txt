@@ -1,0 +1,25 @@
+1.githubにリポジトリ作成。名前「html5.1201」
+   1.githubのサイトに表示
+   2.新しいリポジトリの作成
+2.ローカルに作業用のディレクトリを作成する
+   1.ホームディレクトリに移動
+   2.$ mkdir html5.1201
+   3.$ cd html5.1201
+3.上記のディレクトリを初期化して、リポジトリにする
+   1.$ cd html5.1201
+   2.$ git init
+4.ローカルのリポジトリをgithubのリポジトリに紐付けする
+   1.GitHubのリポジトリのURLをコピー
+   2. ローカルリポジトリにGitHubのリポジトリを登録
+   3.$ git remote add pikachu git@github.com:s16006/html5.1201.git
+   4.確認($ git remote -v)
+5.GitHubで作成した、READE.mdをローカルに持ってくる
+   $ git pull origin master
+6.htmlをコーティングするファイルを作成。名前「index.html」
+7.index.htmlファイルを編集
+8.編集したファイルをadd/commitして、GitHubのpush
+   1.$ git add index.html
+   2.$ git commit -m "first commit"
+   3.$ git push -u pikachu master
+
+
