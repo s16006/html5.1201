@@ -21,5 +21,18 @@
    1.$ git add index.html
    2.$ git commit -m "first commit"
    3.$ git push -u pikachu master
+9.GitHubで、index.htmlがアップロードされていることを確認　
+10.Githubページとして、公開
+   1.Githubで、「gh-pages」ブランチを作成
+   2.公開できているか確認
+      1.「setting」をクリック
+　　　2.表示されるページの「Github Pages」項目からURLから自分の公開しているページに行けること
+11.Githubの「gh-pages」ブランチをローカルの持ってくる
+      1.$ git fetch
+      2.$ git checkout -b gh-pages origin/gh-pages
+12.通常の作業手順
+      1.ファイルの編集
+      2.編集したファイルをadd/commit
+      3.$ git push pikachu gh-pages
 
 
